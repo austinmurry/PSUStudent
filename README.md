@@ -1,1 +1,3 @@
-# PSUStudent
+# Welcome to the PSUStudent Repository!
+May the force be with you all as you try to navigate this crazy place
+The world may not be all that it seems...
