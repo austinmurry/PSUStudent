@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <recipe1>
+        <intro>
+            <title>Original NESTLÉ® TOLL HOUSE® Chocolate Chip Cookies</title>
+
+            <diff lvl="easy">Level Easy</diff>
+
+            <prep>Prep <duration time="15" unit="mins">15 minutes</duration></prep>
+
+            <cook>Cook <duration time="9" unit="mins">9 minutes</duration></cook>
+
+            <serve>Servings <measurement quantity="5" unit="dozen">5 dozen</measurement>
+                cookies</serve>
+
+            <desc>The chocolate chip cookie that started it all! NESTLÉ® TOLL HOUSE® original
+                chocolate chip cookies are a true classic and the go-to cookie for all
+                occasions!</desc>
+        </intro>
+
+        <ingredList>
+            <heading>Ingredients</heading>
+            <ingred n="1">
+                <quantity amount="2.25">2 1/4</quantity>
+                <measurement unit="cups">cups</measurement>
+                <item name="flour"><variety type="all-purpose">all-purpose</variety> flour</item>
+            </ingred>
+            <ingred n="2">
+                <quantity amount="1">1</quantity>
+                <measurement unit="tsp">teaspoon</measurement>
+                <item name="baking soda">baking soda</item>
+            </ingred>
+            <ingred n="3">
+                <quantity amount="1">1</quantity>
+                <measurement unit="tsp">teaspoon</measurement>
+                <item name="salt">salt</item>
+            </ingred>
+            <ingred n="4">
+                <quantity amunt="1">1</quantity>
+                <measurement unit="cup">cup</measurement>
+                <note type="clarify">(2 sticks)</note>
+                <item name="butter">butter</item>, <definer kind="softened">softened</definer>
+            </ingred>
+            <ingred n="5">
+                <quantity amount=".75">3/4</quantity>
+                <measurement unit="cup">cup</measurement>
+                <item name="sugar"><variety type="granulated">granulated</variety> sugar</item>
+            </ingred>
+            <ingred n="6">
+                <quantity amount=".75">3/4</quantity>
+                <measurement unit="cup">cup</measurement>
+                <item name="sugar">packed <variety type="brown">brown</variety> sugar</item>
+            </ingred>
+            <ingred n="6">
+                <quantity amount="1">1</quantity>
+                <measurement unit="tsp">teaspoon</measurement>
+                <item name="vanilla extract">vanilla extract</item>
+            </ingred>
+            <ingred n="7">
+                <quantity amount="2">2</quantity>
+                <item name="eggs"><definer kind="large">large</definer> eggs</item>
+            </ingred>
+            <ingred n="8">
+                <quantity amount="2">2</quantity>
+                <measurement unit="cups">cups</measurement>
+                <note type="clarify">(<measurement unit="oz">12-ounce</measurement> package)</note>
+                <item name="choco chips">NESTLÉ® TOLL HOUSE® Semi-Sweet Chocolate Morsels</item>
+            </ingred>
+            <ingred n="9">
+                <quantity amount="1">1</quantity>
+                <measurement unit="cup">cup</measurement>
+                <item name="nuts"><definer kind="chopped">chopped</definer> nuts</item>
+                <note>(Optional. If omitting, add <specMeasure unit="tbsp"><quantity amount="1-2">1
+                            to 2</quantity> Tbsp.</specMeasure> of all-purpose flour.)</note>
+            </ingred>
+        </ingredList>
+
+        <steps>
+            <heading>Make It</heading>
+
+            <step type="preheat"><subHeading>Step 1</subHeading> Preheat <appliance
+                    location="kitchen">oven</appliance> to <temp amount="375" unit="farenheit">375
+                    °F</temp>.</step>
+
+            <step type="combine"><subHeading>Step 2</subHeading> Combine <item name="flour"
+                    >flour</item>, <item name="baking soda">baking soda</item> and <item name="salt"
+                    >salt</item> in <dishware type="bowl" definer="small">small bowl</dishware>.
+                Beat <item name="butter">butter</item>, <item name="sugar"><variety
+                        type="granulated">granulated</variety> sugar</item>, <item name="sugar"
+                        ><variety type="brown">brown</variety> sugar</item> and <item
+                    name="vanilla extract">vanilla extract</item> in <dishware type="mixer bowl"
+                    definer="large">large mixer bowl</dishware> until <consist what="creamy"
+                    >creamy</consist>. Add <item name="eggs">eggs</item>, <order how="1 at a time"
+                    >one at a time</order>, beating well after each addition. Gradually beat in
+                    <mixture type="flour">flour mixture</mixture>. Stir in <item name="choco chips"
+                    >morsels</item> and <item name="nuts">nuts</item>. Drop by <utensil
+                    type="tablespoon" definer="rounded">rounded tablespoon</utensil> onto <dishware
+                    type="baking sheet" definer="ungreased">ungreased baking
+                sheets</dishware>.</step>
+
+            <step type="bake"><subHeading>Step 3</subHeading> Bake for <duration time="9 to 11"
+                    unit="mins">9 to 11 minutes</duration> or until <color>golden brown</color>.
+                Cool on <dishware type="baking sheet">baking sheets</dishware> for <duration
+                    time="2" unit="mins">2 minutes</duration>; remove to <dishware type="wire rack"
+                    >wire racks</dishware> to cool completely.</step>
+        </steps>
+        <specInst><heading>For High Altitude Baking <measurement unit="feet">(5,200
+                    feet)</measurement>:</heading> Increase <item name="flour">flour</item> to
+                <quantity amount="2">2</quantity>
+            <measurement unit="cups">1/2 cups</measurement>. Add <measurement unit="tsp">2
+                teaspoons</measurement>
+            <item name="water">water</item> with <item name="flour">flour</item> and reduce both
+                <item name="sugar"><variety type="granulated">granulated</variety> sugar</item> and
+                <item name="sugar"><variety type="brown">brown</variety> sugar</item> to
+                <measurement unit="cup">2/3 cup</measurement> each. Bake drop cookies for <duration
+                time="8 to 10" unit="mins">8 to 10 minutes</duration> and pan cookie for <duration
+                time="17 to 19" unit="mins">17 to 19 minutes</duration>.</specInst>
+    </recipe1>
+
+    <recipe2>
+        <intro>
+            <title>Simple White Cake</title>
+
+            <desc>This cake was sent home from our children's school. It is the simplest, great
+                tasting cake I've ever made. Great to make with the kids, especially for
+                cupcakes.</desc>
+
+            <prep>Prep: <duration time="20" unit="mins">20 mins</duration></prep>
+            <cook>Cook: <duration time="30" unit="mins">30 mins</duration></cook>
+            <total>Total: <duration time="50" unit="mins">50 mins</duration></total>
+            <serve>Servings: <quantity amount="12">12</quantity></serve>
+            <yield>Yield: <quantity amount="12">12</quantity> cupcakes or <quantity amount="1"
+                    >1</quantity>- <measurement dimensions="9x9" unit="inch">9x9 inch</measurement>
+                <dishware type="pan">pan</dishware></yield>
+        </intro>
+
+        <ingredList>
+            <heading>Ingredients</heading>
+            <ingred n="1">
+                <quantity amount="1">1</quantity>
+                <measurement unit="cup">cup</measurement>
+                <item name="sugar"><variety type="white">white</variety> sugar</item>
+            </ingred>
+            <ingred n="2">
+                <quantity amount=".5">½</quantity>
+                <measurement unit="cup">cup</measurement>
+                <item name="butter">butter</item>
+            </ingred>
+            <ingred n="3">
+                <quantity amount="2">2</quantity>
+                <item name="eggs">eggs</item>
+            </ingred>
+            <ingred n="4">
+                <quantity amount="2">2</quantity>
+                <measurement unit="tsp">teaspoons</measurement>
+                <item name="vanilla extract">vanilla extract</item>
+            </ingred>
+            <ingred n="5">
+                <quantity amount="1.5">1 ½</quantity>
+                <measurement unit="cups">cups</measurement>
+                <item name="flour"><variety type="all-purpose">all-purpose</variety> flour</item>
+            </ingred>
+            <ingred n="6">
+                <quantity amount="1.75">1 ¾</quantity>
+                <measurement unit="tsp">teaspoons</measurement>
+                <item name="baking powder">baking powder</item>
+            </ingred>
+            <ingred n="7">
+                <quantity amount=".5">½</quantity>
+                <measurement unit="cup">cup</measurement>
+                <item name="milk">milk</item>
+            </ingred>
+        </ingredList>
+
+        <steps>
+            <heading>Directions</heading>
+
+            <step type="preheat"><subHeading>Step 1</subHeading> Preheat <appliance
+                    location="kitchen">oven</appliance> to <temp amount="350" unit="farenheit">350
+                    degrees F</temp>
+                <note>(<altTemp amount="175" unit="celcius">175 degrees C</altTemp>)</note>. Grease
+                and <item name="flour">flour</item> a <measurement dimensions="9x9" unit="inch">9x9
+                    inch</measurement>
+                <dishware type="pan">pan</dishware> or line a <dishware type="muffin pan">muffin
+                    pan</dishware> with <item name="paper liners">paper liners</item>.</step>
+
+            <step type="combine"><subHeading>Step 2</subHeading> In a <dishware type="bowl"
+                    definer="medium">medium bowl</dishware>, cream together the <item name="sugar"
+                    >sugar</item> and <item name="butter">butter</item>. Beat in the <item
+                    name="eggs">eggs</item>, <order how="one at a time">one at a time</order>, then
+                stir in the <item name="vanilla extract">vanilla</item>. Combine <item name="flour"
+                    >flour</item> and <item name="baking powder">baking powder</item>, add to the
+                creamed mixture and mix well. Finally stir in the <item name="milk">milk</item>
+                until batter is <consist what="smooth">smooth</consist>. Pour or spoon batter into
+                the <dishware type="pan" definer="prepared">prepared pan</dishware>.</step>
+
+            <step type="bake"><subHeading>Step 3</subHeading> Bake for <duration time="30 to 40"
+                    unit="mins">30 to 40 minutes</duration> in the preheated <appliance
+                    location="kitchen">oven</appliance>. For cupcakes, bake <duration
+                    time="20 to 25" unit="mins">20 to 25 minutes</duration>. Cake is done when it
+                springs back to the touch.</step>
+        </steps>
+
+        <nutriFacts>
+            <heading>Nutrition Facts</heading>
+            <perServe>Per Serving: <cal amount="209">209 calories</cal>; <prot amount="3.1" unit="g"
+                    >protein 3.1g</prot>; <carbs amount="29.4" unit="g">carbohydrates 29.4g</carbs>;
+                    <fat amount="8.9" unit="g">fat 8.9g</fat>; <chlst amount="52.1" unit="mg"
+                    >cholesterol 52.1mg</chlst>; <sod amount="141.8" unit="mg">sodium
+                141.8mg</sod>.</perServe>
+        </nutriFacts>
+    </recipe2>
+</root>
