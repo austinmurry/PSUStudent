@@ -1,0 +1,50 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = root
+root = element root {recipe1}
+recipe1 = element recipe1 {intro, ingredList, steps, specInst}
+
+intro = element intro {title, diff, prep, cook, serve, desc}
+title = element title {text}
+diff = element diff {lvl, text, empty}
+lvl = attribute lvl {text}
+prep = element prep {text, duration}
+duration = element duration {text, time, unit}
+time = attribute time {text}
+cook = element cook {text, duration}
+serve = element serve {text, measurement, text}
+measurement = element measurement {text, quant?, mixed{ (unit)* }}
+quant = attribute quant {xsd:integer}
+unit = attribute unit {text}
+desc = element desc {text}
+
+ingredList = element ingredList {heading, ingred+}
+heading = element heading {text}
+ingred = element ingred {n, mixed{ (quantity | measurement | note | item)* }}
+n = attribute n {text}
+quantity = element quantity {amount, text}
+amount = attribute amount {text}
+note = element note {mixed{(type | measurement | specMeasure)* }, text}
+type = attribute type {text}
+specMeasure = element specMeasure {unit, quantity, text}
+item = element item {name, mixed{ (variety | definer)* }}
+name = attribute name {text}
+variety = element variety {type, text}
+definer = element definer {kind, text}
+kind = attribute kind {text}
+
+steps = element steps {heading, step+}
+step = element step {type, mixed{ (subHeading | appliance | temp | item | dishware | consist | order | mixture | utensil | duration | color)* }}
+subHeading = element subHeading {text}
+appliance = element appliance {location, text}
+location = attribute location {text}
+temp = element temp {amount, unit, text}
+dishware = element dishware {mixed{ (type | kind)* }, text}
+consist = element consist {what, text}
+what = attribute what {text}
+order = element order {how, text}
+how = attribute how {text}
+mixture = element mixture {type, text}
+utensil = element utensil {type, kind, text}
+color = element color {text}
+
+specInst = element specInst {text, mixed{ (heading | item | quantity | measurement | duration)* }}
