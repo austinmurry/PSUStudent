@@ -19,21 +19,21 @@ desc = element desc {text}
 
 ingredList = element ingredList {heading, ingred+}
 heading = element heading {text}
-ingred = element ingred {n, mixed{ (quantity | measurement | note | item)* }}
+ingred = element ingred {n, mixed{ (quantity | measurement | note | item)* }, text}
 n = attribute n {text}
 quantity = element quantity {amount, text}
 amount = attribute amount {text}
 note = element note {mixed{(type | measurement | specMeasure)* }, text}
 type = attribute type {text}
 specMeasure = element specMeasure {unit, quantity, text}
-item = element item {name, mixed{ (variety | definer)* }}
+item = element item {name, mixed{ (variety | definer)* }, text}
 name = attribute name {text}
 variety = element variety {type, text}
 definer = element definer {kind, text}
 kind = attribute kind {text}
 
 steps = element steps {heading, step+}
-step = element step {type, mixed{ (subHeading | appliance | temp | item | dishware | consist | order | mixture | utensil | duration | color)* }}
+step = element step {type, mixed{ (subHeading | appliance | temp | item | dishware | consist | order | mixture | utensil | duration | color)* }, text}
 subHeading = element subHeading {text}
 appliance = element appliance {location, text}
 location = attribute location {text}

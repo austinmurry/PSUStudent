@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <!-- Added root element to entire document -->
+<root> <!-- Added root element to entire document -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Poem 6 (J 281: 1861/1935)</title>
-                <!-- Fixed end tag to change it from a capital "T" to a lower case "t" -->
+                <title>Poem 6 (J 281: 1861/1935)</title> <!-- Fixed end tag to change it from a capital "T" to a lower case "t" -->
                 <author>Emily Dickinson</author>
             </titleStmt>
             <publicationStmt>
-                <p>Fascicle 16: Dickinson's variants and published versions</p>
-                <!-- Added forward slash to make the p element actually have an end tag -->
+                <p>Fascicle 16: Dickinson's variants and published versions</p> <!-- Added forward slash to make the p element actually have an end tag -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -20,8 +17,7 @@
                     </msIdentifier>
                 </msDesc>
                 <bibl>
-                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
-                    <!-- Added a forward slash to make this into a self closing element tag -->
+                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/> <!-- Added a forward slash to make this into a self closing element tag -->
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -32,40 +28,31 @@
                 <listRef>
                     <ptr target="xml/1606variant.xml"/>
                     <ptr target="img/1606/fs1606a.jpg"/>
-                    <ptr target="img/1606/fs1606b.jpg"/>
-                    <!-- Added missing "=" to the target attribute -->
+                    <ptr target="img/1606/fs1606b.jpg"/> <!-- Added missing "=" to the target attribute -->
                     <ptr target="img/1606/1606fha.jpg"/>
                     <ptr target="img/1606/1606fhb.jpg"/>
                     <ptr target="img/1606/1606fhMap.jpg"/>
-                    <ptr target="img/1606/fs1606Map.jpg"/>
-                    <!-- Added "/" to make ptr self closing -->
-                </listRef>
-                <!-- Changed "L" to "l" in the end tag to match the start tag -->
+                    <ptr target="img/1606/fs1606Map.jpg"/> <!-- Added "/" to make ptr self closing -->
+                </listRef> <!-- Changed "L" to "l" in the end tag to match the start tag -->
             </div>
             <div type="witness">
                 <listWit>
                     <witness xml:id="df16">
                         <bibl>
-                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author>
-                            <!-- Moved author start tag to be outside of the title element -->
+                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author> <!-- Moved author start tag to be outside of the title element -->
                         </bibl>
                     </witness>
-                    <witness xml:id="fh">
-                        <!-- Added extra quote to the end of the "fh" to make it an attribute-->
+                    <witness xml:id="fh"> <!-- Added extra quote to the end of the "fh" to make it an attribute-->
                         <bibl>
                             <title>Final Harvest: Emily Dickinson's Poems</title>
                             <author>Emily Dickinson</author>
                             <editor>Thomas H. Johnson</editor>
-                            <pub Place="Boston">Boston</pub>
-                            <!-- Added "Boston to attribute and removed "Place from the "pub" end tag -->
-                            <publisher>Little, Brown &amp; Company</publisher>
-                            <!-- Changed "&" to "&amp" to make it well formed -->
+                            <pub place="Boston">Boston</pub> <!-- Added "Boston to attribute and removed "Place" attribute from the "pub" end tag -->
+                            <publisher>Little, Brown &amp; Company</publisher> <!-- Changed "&" to "&amp" to make it well formed -->
                             <date>1961</date>
-                        </bibl>
-                        <!-- Added "bibl" end tag -->
+                        </bibl> <!-- Added "bibl" end tag -->
                     </witness>
-                </listWit>
-                <!-- Added "listWit" end tag -->
+                </listWit> <!-- Added "listWit" end tag -->
             </div>
         </front>
         <body>
@@ -118,8 +105,7 @@
                     </app>
                     and Cold—
                 </l>
-                <l n="10">But that will hold—</l>
-                <!-- Added extra quote to make it an actual attribute -->
+                <l n="10">But that will hold—</l> <!-- Added extra quote to make it an actual attribute -->
                 <l n="11">If any are not sure—</l>
                 <l n="12">We show them—prayer—</l>
                 <l n="13">But we, who know,</l>
@@ -129,19 +115,16 @@
                 <l n="15">Looking at Death, is Dying—</l>
                 <l n="16">Just let go the Breath—</l>
                 <l n="17">And not the pillow at your Cheek</l>
-                <l n="18">So Slumbereth—</l>
-                <!-- Added "/" to make "l" a proper end tag -->
+                <l n="18">So Slumbereth—</l> <!-- Added "/" to make "l" a proper end tag -->
             </lg>
             <lg>
                 <l n="19">Others, Can wrestle—</l>
-                <l n="20">Yours, is done—</l>
-                <!-- Added "</l>" end tag -->
+                <l n="20">Yours, is done—</l> <!-- Added "</l>" end tag -->
                 <l n="21">
                     And so of
                     <app>
                         <rdg wit="#df16">Wo</rdg>
-                        <rdg wit="#fh">Woe</rdg>
-                        <!-- Added "/" to make "rdg" a proper end tag -->
+                        <rdg wit="#fh">Woe</rdg> <!-- Added "/" to make "rdg" a proper end tag -->
                     </app>
                     , bleak dreaded—
                     <app>
