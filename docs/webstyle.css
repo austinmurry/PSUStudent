@@ -7,19 +7,23 @@ font-family: "Trebuchet MS", Times, serif;
 
 }
 
-h1, h2, h3 {
+a:hover {
+    color: lavender;
+}
+/* Below this is styling for my index page */
+h1.index, h2.index, h3.index {
     line-height: 50px;
     text-align: center;
     /* padding: 0 20px; */
 }
 
-p {
+p.index {
     line-height: 50px;
     text-align: center;
     /* padding: 0 20px; */
 }
 
-img {
+img.index {
     margin-top: 25px;
     display: block;
     margin-left: auto;
@@ -28,12 +32,78 @@ img {
     /* padding: 0 30px; */
 }
 
-ol {
+ol.center {
     list-style-type: lower-alpha;
     list-style-position: inside;
     padding: 5em;
     text-align: center;
 }
+/* Above this is styling for my index page */
+
+/* Below this is styling for my resume page */
+h1.resume {
+    line-height: 50px;
+    padding: 0 5px;
+}
+
+h2.resume {
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+h3.resume {
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+p.resume {
+    line-height: 20px;
+    padding: 0 40px;
+    display: list-item;                                     
+    list-style-type: disc; 
+    list-style-position: inside;
+}
+
+p.resume2 {
+    line-height: 20px;
+    padding: 0 60px;
+    display: list-item;                                     
+    list-style-type: disc; 
+    list-style-position: inside;
+}
+
+ol.resume {
+    list-style-type: lower-alpha;
+    padding: 20px 50px;
+}
+
+ul.resume {
+    padding: 0 57px;
+}
+/* Above this is styling for my resume page */
+
+/* Below this is styling for my portfolio page */
+figure.portfolio {
+    width:30%; 
+    margin:auto; 
+    padding-top: 1vw; 
+    padding-bottom: 1vw;
+}
+figcaption {
+    font-style: italic; 
+    font-size: smaller;
+}
+img.portfolio {
+    max-width:500px; 
+    width:100%
+}
+/* Above this is styling for my portfolio page */
+
+/* Below this is styling for my about page */
+/* Above this is styling for my about page */
+
+/* Below this is styling for my contact page */
+/* Above this is styling for my contact page */
 
 /* Below this is styling for the Navigation Bar */
 * {
@@ -47,18 +117,18 @@ nav {
     background-color: #1D6EB1;
 }
 
-ul {
+ul.menu {
     
 }
 
-ul li {
+ul.menu li {
     list-style: none;
     display: inline-block;
     float: left;
     line-height: 50px;
 }
 
-ul li a {
+ul.menu li a {
     display: block;
     text-decoration: none;
     font-size: 14px;
@@ -67,6 +137,7 @@ ul li a {
     padding: 0 20px;
 }
 
-ul li a:hover {
+ul.menu li a:hover {
     color: lavender;
 }
+/* Above this is styling for the Navigation Bar */
