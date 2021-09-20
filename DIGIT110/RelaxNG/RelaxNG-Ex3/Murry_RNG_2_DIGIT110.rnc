@@ -1,0 +1,42 @@
+start = root
+root = element root {metadata, heading, infoTitle, poem, bib}
+
+metadata = element metadata {source, codeing}
+source = element source {location, text}
+location = attribute location {"LOC" | text}
+codeing = element codeing {encoder, date}
+encoder = element encoder {xmlid, text}
+xmlid = attribute xml:id {"#amurry"}
+date = element date {when?, text}
+
+heading = element heading {text}
+
+infoTitle = element infoTitle {poemName, authorName, when, text}
+poemName = attribute poemName {"Ballad of Booker T."}
+authorName = attribute authorName {"Langston Hughes"}
+when = attribute when {"1941-06-01"}
+
+poem = element poem {intro, body, sign}
+intro = element intro {title, author}
+title = element title {text}
+author = element author {name?, text}
+name = attribute name {"Langston Hughes" | text}
+body = element body {line*}
+line = element line {n, mark*, text, mixed{ (underline | specChar)* }}
+n = attribute n {xsd:integer}
+mark = attribute mark {"stamp" | text}
+underline = element underline {what, text}
+what = attribute what {"and-your-hand" | "not" | text}
+specChar = element specChar {type, text}
+type = attribute type {"-" | "final" | text}
+sign = element sign {author, note, draft, signLocation, date}
+note = element note {resp, text}
+resp = attribute resp {"#amurry"}
+draft = element draft {type, text}
+signLocation = element signLocation {place, city, state, text}
+place = attribute place {"Hollow Hills Farm" | text}
+city = attribute city {"Monterey" | text}
+state = attribute state {"California" | text}
+
+bib = element bib {heading, cite}
+cite = element cite {text}

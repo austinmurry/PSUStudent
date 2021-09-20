@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Murry_RNG_2_DIGIT110.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <source location="LOC">Library of Congress</source>
+        <codeing>
+            <encoder xml:id="#amurry">Austin Murry</encoder>
+            <date>31 August 2021</date>
+        </codeing>
+    </metadata>
+    <heading>Transcript</heading>
+
+    <infoTitle poemName="Ballad of Booker T." authorName="Langston Hughes" when="1941-06-01">"Ballad of
+        Booker T.," by Langston Hughes, June 1, 1941</infoTitle>
+
+    <poem>
+        <intro>
+            <title>BALLAD OF BOOKER T.</title>
+            <author>by Langston Hughes</author>
+        </intro>
+
+        <body>
+            <line n="1">Booker T.</line>
+            <line n="2">Was a practical man.</line>
+            <line n="3">He said, Till the soil</line>
+            <line n="4">And learn from the land.</line>
+            <line n="5" mark="stamp">Let down your bucket</line>
+            <line n="6" mark="stamp">Where you are.</line>
+            <line n="7" mark="stamp">Your fate is here</line>
+            <line n="8" mark="stamp">And not afar.</line>
+            <line n="9" mark="stamp">To help yourself</line>
+            <line n="10" mark="stamp">And your fellow man,</line>
+            <line n="11">Train your head,</line>
+            <line n="12">Your heart, <underline what="and-your-hand">and your
+                hand</underline>.</line>
+            <line n="13">For smartness alone's</line>
+            <line n="14">Surely not meet<specChar type="-">—</specChar></line>
+            <line n="15">If you haven't at the same time</line>
+            <line n="16">Got something to eat.</line>
+            <line n="17">Thus at Tuskegee</line>
+            <line n="18">He built a school</line>
+            <line n="19">With book-learning there</line>
+            <line n="20">And the workman's tool.</line>
+            <line n="21">He started out</line>
+            <line n="22">In a simple way<specChar type="-">—</specChar></line>
+            <line n="23">For yesterday</line>
+            <line n="24">Was <underline what="not">not</underline> today.</line>
+            <line n="25">Sometimes he had</line>
+            <line n="26">Compromise in his talk<specChar type="-">—</specChar></line>
+            <line n="27">For a man must crawl</line>
+            <line n="28">Before he can walk<specChar type="-">—</specChar></line>
+            <line n="29">And in Alabama in '85</line>
+            <line n="30">A joker was lucky</line>
+            <line n="31">To be alive.</line>
+            <line n="32">But Booker T.</line>
+            <line n="33">Was nobody's fool:</line>
+            <line n="34">You may carve a dream</line>
+            <line n="35">With an humble tool.</line>
+            <line n="36">The tallest tower</line>
+            <line n="37">Can tumble down</line>
+            <line n="38">If it be not rooted</line>
+            <line n="39">In solid ground.</line>
+            <line n="40">So, being a far-seeing</line>
+            <line n="41">Practical man,</line>
+            <line n="42">He said, Train your head,</line>
+            <line n="43">Your heart, <underline what="and-your-hand">and your
+                hand</underline>.</line>
+            <line n="44">Your fate is here</line>
+            <line n="45">And not afar,</line>
+            <line n="46">So let down your bucket</line>
+            <line n="47">Where you are.</line>
+        </body>
+
+        <sign>
+            <author name="Langston Hughes">LANGSTON HUGHES</author>
+            <note resp="#amurry">Covered by signature</note>
+            <draft type="final">Final Draft,</draft>
+            <signLocation place="Hollow Hills Farm" city="Monterey" state="California">Hollow Hills
+                Farm, Monterey, California,</signLocation>
+            <date when="1941-06-01">June 1, 1941.</date>
+        </sign>
+    </poem>
+    <bib>
+        <heading>Citation:</heading>
+        <cite>Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941. (Langston
+            Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C.</cite>
+    </bib>
+</root>
