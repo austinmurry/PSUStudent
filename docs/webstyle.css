@@ -100,6 +100,38 @@ img.portfolio {
 /* Above this is styling for my portfolio page */
 
 /* Below this is styling for my about page */
+figure.about {
+    width:30%; 
+    margin:auto; 
+    padding-top: .5vw; 
+    padding-bottom: 1vw;
+}
+img.about {
+    max-width:500px; 
+    width:100%
+}
+h1.about{
+    line-height: 50px;
+    text-align: center;
+}
+p.about {
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0 300px;
+}
+p.about2 {
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 300px;
+}
+p.about3 {
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0 300px;
+}
 /* Above this is styling for my about page */
 
 /* Below this is styling for my contact page */
