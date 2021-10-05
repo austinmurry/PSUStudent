@@ -5,12 +5,13 @@
         <meta charset="UTF-8" />
         <meta name="author" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="webstyle.css" />       
+        <link rel="stylesheet" type="text/css" href="webstyle.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     </head>
     <!--This page is published at https://github.com/austinmurry/PSUStudent -->
     
     <body>
-        <nav>
+        <!-- <nav>
             <ul class="menu">
                 <li class="menu"><a href="index.html">Home</a></li>
                 <li class="menu"><a href="resume.html">Resume</a></li>
@@ -18,7 +19,24 @@
                 <li class="menu"><a href="about.html">About</a></li>
                 <li class="menu"><a href="#">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
+        
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <div class="subnav">
+                <button class="subnavbtn">Portfolio <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="portfolio.html">Personal Work</a>
+                    <a href="digit100.html">DIGIT 100</a>
+                    <!--<a href="#link3">DART 204</a>
+                    <a href="#link4">DART 409</a>
+                    <a href="#link4">DIGIT 495</a>-->
+                </div>
+            </div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
         
         <h1 class="index">Austin Murry's Student Digital Media, Art and Technology Webpage</h1>
         <h2 class="index">This is my personal Repo page where I am testing how to work with HTML</h2>

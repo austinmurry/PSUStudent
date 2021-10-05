@@ -1,6 +1,7 @@
 body {
-background-color: /*BurlyWood*/ #4682B4;
-color: GoldenRod; 
+background-image: url(images/backgroundcopy3.jpg);
+background-color: /*#01BAEF;*/ /*#4682B4;*/ darkgrey;
+color: /*#040F16;*/ /*GoldenRod;*/ #edf2f4;
 /*font-family: arial, helvetica, sans-serif;*/
 
 font-family: "Trebuchet MS", Times, serif;
@@ -10,17 +11,41 @@ font-family: "Trebuchet MS", Times, serif;
 a:hover {
     color: lavender;
 }
+
+a:link {
+    color: #e63946;
+}
+
+a:visited {
+    color: #e63946;
+}
 /* Below this is styling for my index page */
 h1.index, h2.index, h3.index {
-    line-height: 50px;
+    line-height: 30px;
     text-align: center;
     /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
 }
 
 p.index {
-    line-height: 50px;
+    line-height: 20px;
     text-align: center;
     /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
 }
 
 img.index {
@@ -35,12 +60,31 @@ img.index {
 ol.center {
     list-style-type: lower-alpha;
     list-style-position: inside;
-    padding: 5em;
+    padding: .5em;
     text-align: center;
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
 }
 /* Above this is styling for my index page */
 
 /* Below this is styling for my resume page */
+div.resume {
+    display: block;
+    border: 2px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: 820px;
+}
+
 h1.resume {
     line-height: 50px;
     padding: 0 5px;
@@ -89,15 +133,122 @@ figure.portfolio {
     padding-top: 1vw; 
     padding-bottom: 1vw;
 }
+
 figcaption {
     font-style: italic; 
     font-size: smaller;
 }
+
 img.portfolio {
     max-width:500px; 
     width:100%
 }
 /* Above this is styling for my portfolio page */
+
+/* below this is styling for my portfolio subpages */
+
+img.thumbnail{
+    display:block;
+    border-radius: 15px;
+    flex-direction: row;
+    border: 12px solid #1D6EB1;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    min-height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.flex-container {
+    flex-wrap: wrap;
+}
+
+img.thumbnail {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 22px;
+  left: 22px;
+  right: 0px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 276px;
+  transition: .5s ease;
+  opacity:0;
+  border-radius: 2px;
+  color: white;
+  font-size: small;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+}
+
+div > figure{
+position: relative;
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin:initial;
+flex-wrap: wrap;
+ }
+/* Above this is styling for my portfolio subpages */
+
+/* Below this is styling for my essay page */
+h1.essay {
+    line-height: 30px;
+    text-align: center;
+    /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+p.essay {
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+p.essay2 {
+    line-height: 30px;
+    text-align: center;
+    /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+/* Above this is styling for my essay page */
 
 /* Below this is styling for my about page */
 figure.about {
@@ -108,36 +259,161 @@ figure.about {
 }
 img.about {
     max-width:500px; 
-    width:100%
+    width:100%;
+    display: block;
+    border-radius: 15px;
+    flex-direction: row;
+    border: 12px solid #1D6EB1;
+    background-color: black;
+    margin-bottom: auto;
 }
 h1.about{
-    line-height: 50px;
+    line-height: 30px;
     text-align: center;
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
 }
 p.about {
     line-height: 30px;
-    margin: auto;
     text-align: center;
-    padding: 0 300px;
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: auto;
+    border-radius: 6px;
+    width: fit-content;
 }
 p.about2 {
     line-height: 30px;
-    margin: auto;
     text-align: center;
-    padding: 20px 300px;
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
 }
 p.about3 {
     line-height: 30px;
-    margin: auto;
     text-align: center;
-    padding: 0 300px;
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: fit-content;
 }
 /* Above this is styling for my about page */
 
 /* Below this is styling for my contact page */
+div.contact {
+    display: block;
+    border: 2px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: 1010px;
+}
+p.contact {
+    line-height: 40px;
+    padding: 0 20px;
+    
+}
+
+ul.contact {
+    padding: 0 57px;
+}
 /* Above this is styling for my contact page */
 
-/* Below this is styling for the Navigation Bar */
+/* Below this is styling for New Navigation Bar */
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #1D6EB1;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: GoldenRod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: GoldenRod;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: grey;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+/* Above this is styling for New Navigation Bar */
+
+/* Below this is styling for the Old Navigation Bar
 * {
     margin: 0;
     padding: 0;  
@@ -171,5 +447,5 @@ ul.menu li a {
 
 ul.menu li a:hover {
     color: lavender;
-}
-/* Above this is styling for the Navigation Bar */
+} */
+
