@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>Comparative Essay</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="My Name" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="webstyle.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <div class="subnav">
+                <button class="subnavbtn">Portfolio <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="portfolio.html">Personal Work</a>
+                    <a href="digit100.html">DIGIT 100</a>
+                    <!--<a href="#link3">DART 204</a>
+                    <a href="#link4">DART 409</a>
+                    <a href="#link4">DIGIT 495</a>-->
+                </div>
+            </div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <h1 class="essay">Corpus Large Text Analysis</h1>
+        <p class="essay">So for this project I decided to work on comparing the work of Edgar Allen Poe to the collection of fictional works, but I took it a step further and just decided to include the works from the 19th century in that collection since that's the time period Poe was alive and writing as well. I thought it would be interesting to see how the other works of the time compared to Poe's work and if there were more similarities or differences.</p>
+        <p class="essay">The first screenshot I have is just the overall pull of the N-Grams from 2-4 just because I wanted to see what the similarities were right off the bat without doing any further digging first.</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/2-4_Cluster_Comparison.png" alt="2-4 NGram Clsuter for both sets of text collections"/>
+            </figure>
+        </section>
+        <p class="essay">From this I found that in both sets of text, the N-Grams "of the" and "in the" are the top two N-Grams for both sets of texts. This is interesting to me as it shows that there is a heavy similarity right off the bat. From here I want to do what I mentioned earlier and I want to step down into the texts before and after Poe's death and see if these patterns still arise in both sets or just in one or the other.
+        </p>
+        <p class="essay">My second set of screenshots, I wanted to do a little more digging. From what I already know of Poe and his work, I know that his works delved a lot into the themes of Death and loss, and so I wanted to do a direct word search for the word "death" in both collections.</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/TopDeathWords-Overview.png" alt="Word search of the word Death across both collections of texts"/>
+            </figure>
+        </section>
+        <p class="essay">From this I found that for Poe, "Death's" is the top word while in the fictions collection it is the second top word. Then the second top word for the fictions collection is "death of" while in Poe this is the third top word. This is interesting to me to see as it shows that specifically death wasn't as prevalent in the fictions text as it was in Poe's texts, only appearing 9 times versus Poe's 22. I also wanted to see in what context both texts referred to the word of "death" so I clicked it and found this:</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/DeathWord-Comparison.png" alt="Word search of the word Death across both collections of texts"/>
+            </figure>
+        </section>
+        <p class="essay">The interesting thing to note here is that in both they both seem to refer to the actual being of death rather than the meaning of it. This is more so seen in Poe's work as from the screenshot you can see him talk an awful lot about "deaths head" and how "death's a good fellow". To me it seems as though Poe views Death as a friend, while in the other fictional texts refer more to "death's cold arms" and "death's dark region" which makes me think that they view death in less of a friendly light than Poe. To me I feel that Poe's use of the word of Death contributes to the style of horror that he tries to go for in his texts, that being of it more as a thing that is apart of life and something not to be afraid of, or in other words, death is a friend not a foe.</p>
+        <p class="essay">The final thing I wanted to take a look at when it came to Death was takng a look at the two collections of texts top death phrases (Death's for Poe and Death of for the fictional texts) and see how these two compared.</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/TopWordWithDeath-Comparison.png" alt="Word search of the word Death across both collections of texts"/>
+            </figure>
+        </section>
+        <p class="essay">From the screenshot above, our previous analysis of Poe's Death's word is still the same, with death being a friend and a "good fellow" and the such, but then on the other side of things in the fictional texts you can see that they talk alot about the death of people. So we can come to the conclusion again that while Poe likes to talk about Death as a physical being and as a friend, the other fictional texts see it as more of a sad thing talking of the death of people and things.</p>
+        <p class="essay2">After analyzing all of this Death stuff I wanted to make a shift over into Voyant and see if it would give me any new results, and it sure did!</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/Poe_Voyant_Analysis.png" alt="Voyant's text pull of Poe Collection"/>
+            </figure>
+        </section>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/Fiction_Voyant_Analysis.png" alt="Voyant's text pull of fiction collection"/>
+            </figure>
+        </section>
+        <p class="essay">The thing that immediately stands out to me here amongst all the other words is that in both sets of text the word "Time" appears in both of the sets of most frequently used words. This fascinated me as I hadn't even thought of how time could be such a major part of both of these text collections. Voyant couldn't really get me much further with this new analysis of the word "time" so I headed back to AntConc and plugged time into the word search to see what came up and this is what came first:</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/TimeWord-Comparison.png" alt="Word search of the word time in both collections of text"/>
+            </figure>
+        </section>
+        <p class="essay">When I plugged in time for both collections of text the top cluster of words that appeared was "Time to", so down the rabbit hole we go again. I first tried to think in my head what "time to" could bring up in both collections. With Poe I thought back to how his use of death and loss is one of his major themes, so I thought that maybe he could use it in the context of "it's someones time to die". When it came to the fictional texts collection I thought that maybe it could be used in the context of "it's time to do something". The only thing to do was to click on both and see where it lead.</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/TimeTo-Comparison.png" alt="Time To phrase comparison"/>
+            </figure>
+        </section>
+        <p class="essay">It turned out here that my thought was on the right track! When I was looking through Poe's use of the phrase first I saw that he was using it as a phrase to represent an action of sorts, "time to anticipate" and "time to attend", but as I scrolled down two phrases really caught my eye, "before the gas has time to deteriorate" and "considered it high time to die". These really stood out as it revolves back to the assumption I had made that Poe would use it as a phrase to relate back to his theme of Death! More so in the second phrase than the first phrase. But when we take a look over at the fictional collection of texts, we can see that my assumption was pretty acurate on their use of the phrase as a way to describe that it is time to do some sort of an action.</p>
+        <p class="essay2">The final thing I wanted to analyze here with "time" would be to search the word directly and see what kinds of similarities came up with the use of that specific word "time".</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/TimeWord-Comparison2.png" alt="Literal word time comparison"/>
+            </figure>
+        </section>
+        <p class="essay">To me nothing remarkable stood out in either texts about the word "Time", they both mainly used it to either literally tell time, say it is time to do something, or talk about a specific point in time. Though things took a slight turn when I scrolled a little more deeply into the Poe collection and I found that there are two key phrases that stand out, "Time and Destiny" as well as "Time and Eternity". This stands out like a sore thumb and is much different to the rest of the uses of the word. To me, Poe is using the word here as more of a concept, but a deeper concept then just time as a unit of measurement. I believe here he is using time as being intertwined with our destiny and how time is a precious thing when you think of it. Time is something we all seem to take for granted at one point or another, we can't escape time iteslf. Time is something that will always be with us as human beings and time is something that we have to choose how we use it within our destiny's. Time is also eternity as time is in constant motion, time doesn't stop, it keeps going on for, well eternity. I know I just got a little deep int the philosophy of time, but that was my take on what Poe is trying to get at here.</p>
+        <p class="essay">The final thing I decided to take a look at was to change the NGram cluster size from 2-4 up to 3-6 and see if any conclusive data would arise from this, and I am sad to say that nothing significant stood out to me here.</p>
+        <section class="corpus">
+            <figure class="corpus">
+                <img class="corpus" src="images/D100_Project2/3-6_Cluster_Comparison.png" alt="3-6 NGram Cluster"/>
+            </figure>
+        </section>
+        <p class="essay">Nothing major popped up with these results. I tried to dig into some of the clusters here but they didn't lead to really anything to try and compare on when it came to this analysis. So I guess that is where we will leave this cluster set.</p>
+        <p class="essay">So to king of sum everything up, I think I was able to get a lot of great information with my analysis. I think both sets of texts ended up being very different in their approaches with their concepts and ways of writing, but this is also what made Poe stand out amongst the crowd when it came to his work in the 19th century. Both had their depictions of the concepts of death and loss, with the fictional texts taking it in the literal sense of the death of a person and that death is something to fear, while Poe took it in the direction of Death is more of a friend and we shouldn't fear the concept and physical being that is Death. But also with both texts use of the concept of time amongst them. Time to Poe is a fragile thing and is something interwoven with ur lives as more than just a unit of measurement, while the fictional texts take it more literally again as a measurement of time and an action. Overall I really enjoyed looking into these collections of text and I am happy to say that I learned a lot about Poe from this experience.</p>
+        <p class="essay2">You can find the collections of text that I used for this assignment on my GitHub Repo <a href="https://github.com/austinmurry/PSUStudent/tree/main/DIGIT100/Project-2-largeText-Comparison">here</a></p>
+    </body>
+</html>
