@@ -431,6 +431,21 @@ img.corpus {
     margin-bottom: auto;
 }
 
+h1.map {
+    line-height: 30px;
+    text-align: center;
+    /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
 /* Below this is styling for the Old Navigation Bar
 * {
     margin: 0;
