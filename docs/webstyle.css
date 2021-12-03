@@ -173,6 +173,36 @@ img.thumbnail {
     width: 300px;
 }
 
+img.screenCap1 {
+    margin: 10px;
+    height: 350px;
+    width: 700px;
+}
+
+img.screenCap1{
+    display:block;
+    border-radius: 15px;
+    flex-direction: row;
+    border: 12px solid #1D6EB1;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+img.screenCap2 {
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+img.screenCap2{
+    display:block;
+    border-radius: 15px;
+    flex-direction: row;
+    border: 12px solid #1D6EB1;
+    background-color: white;
+    margin-bottom: 10px;
+}
 .overlay {
   position: absolute; 
   bottom: 22px;
@@ -192,7 +222,53 @@ img.thumbnail {
   font-family: 'Open Sans', sans-serif;
 }
 
+.overlay2 {
+  position: absolute; 
+  bottom: 22px;
+  left: 22px;
+  right: 0px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 660px;
+  transition: .5s ease;
+  opacity:0;
+  border-radius: 2px;
+  color: white;
+  font-size: small;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.overlay3 {
+  position: absolute; 
+  bottom: 22px;
+  left: 22px;
+  right: 0px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 460px;
+  transition: .5s ease;
+  opacity:0;
+  border-radius: 2px;
+  color: white;
+  font-size: small;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
 figure:hover .overlay {
+  opacity: 1;
+}
+
+figure:hover .overlay2 {
+  opacity: 1;
+}
+
+figure:hover .overlay3 {
   opacity: 1;
 }
 
