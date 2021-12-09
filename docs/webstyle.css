@@ -551,6 +551,21 @@ h1.map {
     width: fit-content;
 }
 
+footer {
+    background-color: #1D6EB1;
+    width: 100%;
+    text-align: center;
+}
+
+img.cc {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .5em;
+  margin-bottom: -10px;
+  width: 5%;
+}
+
 /* Below this is styling for the Old Navigation Bar
 * {
     margin: 0;
