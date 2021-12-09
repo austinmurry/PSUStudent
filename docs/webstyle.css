@@ -34,6 +34,35 @@ h1.index, h2.index, h3.index {
     width: fit-content;
 }
 
+h1.game {
+    line-height: 30px;
+    text-align: center;
+    /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+h1.network {
+    line-height: 30px;
+    text-align: center;
+    /* padding: 0 20px; */
+    display: block;
+    border: 6px solid #1D6EB1;
+    background-color: #1D6EB1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
 p.index {
     line-height: 20px;
     text-align: center;
